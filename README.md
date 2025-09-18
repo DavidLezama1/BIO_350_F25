@@ -19,10 +19,6 @@ IC Assignment 2: Chapter 2 of Ecology Handbook:
 • Works and introduced matplotlib, and plotting on x and y axis
 
 
-IC_InclassExample1:
-
-• Made the log of the graph from assignment 2
-
 
 IC_Assigment 3: Chapter 3 of Ecology Handbook:
 
@@ -33,6 +29,26 @@ IC_Assigment 3: Chapter 3 of Ecology Handbook:
 • The analysis technique is a discrete-time population model
 
 • The program simulates plant population growth with self-shading and explicit deaths and without
+
+
+
+IC Assignment 4: Chapter 4 of Ecology Handbook:
+
+The code shows you how two competing plant species grow and interact in the same plot using logistic growth with self-shading and competition, showing that the colonizer eventually stabilizes at 240 (carrying capacity) while the threatened species goes extinct at year 24. 
+
+• The program sets the initial populations, carrying capacities, number of seeds produced per year, death rates,  and number of years to simulate for both species. 
+
+• The function records the population sizes over time and I made sure to prevent any negative values.
+
+• The simulation runs for  50 years, and the results are stored.
+
+• The model uses a discrete-time logistic growth simulation with Lotka–Volterra competition to analyze species interactions.
+
+
+
+IC_InclassExample1:
+
+• Made the log of the graph from assignment 2
 
 
 IC_InclassExample2:
