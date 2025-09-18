@@ -1,6 +1,8 @@
 # BIO_350_F25
 Starting our BIO350 assigments repo.
 
+_____________________________________________________________________________
+
 IC Assingment 1: Chapter 1 of Ecology Handbook:
 
 • Making a difference equation
@@ -9,6 +11,7 @@ IC Assingment 1: Chapter 1 of Ecology Handbook:
 
 • It works!
 
+_____________________________________________________________________________
 
 IC Assignment 2: Chapter 2 of Ecology Handbook:
 
@@ -18,7 +21,7 @@ IC Assignment 2: Chapter 2 of Ecology Handbook:
 
 • Works and introduced matplotlib, and plotting on x and y axis
 
-
+_____________________________________________________________________________
 
 IC_Assigment 3: Chapter 3 of Ecology Handbook:
 
@@ -30,7 +33,7 @@ IC_Assigment 3: Chapter 3 of Ecology Handbook:
 
 • The program simulates plant population growth with self-shading and explicit deaths and without
 
-
+_____________________________________________________________________________
 
 IC Assignment 4: Chapter 4 of Ecology Handbook:
 
@@ -44,12 +47,13 @@ The code shows you how two competing plant species grow and interact in the same
 
 • The model uses a discrete-time logistic growth simulation with Lotka–Volterra competition to analyze species interactions.
 
-
+_____________________________________________________________________________
 
 IC_InclassExample1:
 
 • Made the log of the graph from assignment 2
 
+_____________________________________________________________________________
 
 IC_InclassExample2:
 
