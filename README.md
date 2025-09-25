@@ -3,7 +3,7 @@ Starting our BIO350 assigments repo.
 
 _____________________________________________________________________________
 
-IC Assingment 1: Chapter 1 of Ecology Handbook:
+IC Assingment 1: Chapter 1 of Ecology Handbook: Change over Time
 
 • Making a difference equation
 
@@ -13,7 +13,7 @@ IC Assingment 1: Chapter 1 of Ecology Handbook:
 
 _____________________________________________________________________________
 
-IC Assignment 2: Chapter 2 of Ecology Handbook:
+IC Assignment 2: Chapter 2 of Ecology Handbook: Duckweed on a Pond: Exponential Growth
 
 • Making an exponential equation to measure how quickly duckeweed covers a pond
 
@@ -23,7 +23,7 @@ IC Assignment 2: Chapter 2 of Ecology Handbook:
 
 _____________________________________________________________________________
 
-IC_Assigment 3: Chapter 3 of Ecology Handbook:
+IC_Assigment 3: Chapter 3 of Ecology Handbook: Throwing Shade I: Logistic Growth
 
 • All information and values come from Chapter 3 of the Handbook of Quantitative Ecology
 
@@ -35,7 +35,7 @@ IC_Assigment 3: Chapter 3 of Ecology Handbook:
 
 _____________________________________________________________________________
 
-IC Assignment 4: Chapter 4 of Ecology Handbook:
+IC Assignment 4: Chapter 4 of Ecology Handbook: Throwing Shade II: Lotka-Volterra Competition
 
 The code shows you how two competing plant species grow and interact in the same plot using logistic growth with self-shading and competition, showing that the colonizer eventually stabilizes at 240 (carrying capacity) while the threatened species goes extinct at year 24. 
 
@@ -46,6 +46,24 @@ The code shows you how two competing plant species grow and interact in the same
 • The simulation runs for  50 years, and the results are stored.
 
 • The model uses a discrete-time logistic growth simulation with Lotka–Volterra competition to analyze species interactions.
+
+_____________________________________________________________________________
+
+IC Assignment 5: Chapter 5 of Ecology Handbook: Rabies Removal: SIR Models
+
+• Uses an SIR model function that simulates rabies spread in a fox population using difference equations for Susceptible (S), Infected (I), and Removed/Dead (R).
+
+• Initializes the population states with given values: 999 susceptible, 1 infected, and 0 dead.
+
+• Iterates daily updates over the time period (40 days), applying the equations for infection (beta variable), death (death rate), and transitions between classes.
+
+• Stores results in arrays so that the daily values of S, I, and R are stored.
+
+• Plots for susceptible, infected, and dead foxes over time
+
+• Prints an answer to the chapter question, showing that rabies spreads and giving the number of foxes dead by day 40 (R[-1]).
+
+• I also answered question given by the teacher about beta variable and death rate changing. 
 
 _____________________________________________________________________________
 
@@ -66,4 +84,16 @@ and a horizontal reference line at y=276
 
 • This analysis uses a density-independent approach because the analysis does not include any factors or equations that account for population regulation by density. It simply summarizes and visualizes population data without modeling how population size affects growth
 
+_____________________________________________________________________________
 
+IC_InclassExample3:
+
+• The code demonstrates two versions of a Lotka–Volterra style competition model for two species (N and M). 
+
+• Each version simulates population growth, competition, and perturbations (extra individuals added at specific time steps). 
+
+• The first model uses logistic growth with death rates, while the second uses the classical competition form with growth rates and competition coefficients. 
+
+• Both models store population sizes over time in lists and then plot trajectories (days vs population) using matplotlib. 
+
+• Example runs are provided with initial values, carrying capacities, and parameters, showing how species interact and respond to competition and sudden introductions.
