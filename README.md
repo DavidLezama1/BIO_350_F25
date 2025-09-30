@@ -97,3 +97,21 @@ IC_InclassExample3:
 • Both models store population sizes over time in lists and then plot trajectories (days vs population) using matplotlib. 
 
 • Example runs are provided with initial values, carrying capacities, and parameters, showing how species interact and respond to competition and sudden introductions.
+
+_____________________________________________________________________________
+
+IC_InclassExample4:
+
+• Imported and installed necessary Python libraries (numpy, scipy, matplotlib, seaborn, pandas).
+
+• Translated an R model (Carcass R file) to Python, defining SICZ and SICZ_gamma compartmental disease models as systems of ODEs.
+
+• Set initial conditions and parameters for different population sizes.
+
+• Solved the ODEs using scipy's odeint for both standard and gamma-distributed models.
+
+• Plotted time series results for Susceptible, Infected, Carcass, and Zoospore compartments for each scenario.
+
+• Each scenario simulated disease spread in large, medium, and small populations, and compared standard versus gamma-distributed infection periods with both slow and fast carcass decay rates.
+
+• Also included a reflection on my experience and the exact steps taken to complete the assignment.
