@@ -69,17 +69,17 @@ _____________________________________________________________________________
 
 IC Assignment 6: Imagine All the Beetles: Age-Structured Models
 
-Added an age-structured population model for beetles using matrix multiplication.
+• Added an age-structured population model for beetles using matrix multiplication.
 
-Defined a function to calculate populations of first-year, second-year, and third-year beetles, as well as the total population, over multiple years.
+• Defined a function to calculate populations of first-year, second-year, and third-year beetles, as well as the total population, over multiple years.
 
-Simulated beetle population dynamics for 150 years with initial populations for first and second-year beetles.
+• Simulated beetle population dynamics for 150 years with initial populations for first and second-year beetles.
 
-Plotted population trends for each age group and the total population over time.
+• Plotted population trends for each age group and the total population over time.
 
-Added a scenario with a 5% trap rate to model the impact.
+• Added a scenario with a 5% trap rate to model the impact.
 
-Compared population outcomes with and without traps, and reflected on the effect of trapping over time.
+• Compared population outcomes with and without traps, and reflected on the effect of trapping over time.
 
 _____________________________________________________________________________
 
