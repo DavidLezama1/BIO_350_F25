@@ -131,3 +131,16 @@ IC_InclassExample4:
 • Each scenario simulated disease spread in large, medium, and small populations, and compared standard versus gamma-distributed infection periods with both slow and fast carcass decay rates.
 
 • Also included a reflection on my experience and the exact steps taken to complete the assignment.
+
+_____________________________________________________________________________
+
+IC_InclassExample4:
+
+• This assignment expanded and altered the original IC_Assignment6 code by increasing the number of age groups to five and adjusting the matrix, reproduction rates, and survival probabilities to model a real species more accurately.
+
+• The model simulated a five-age population of female house sparrows using realistic survival and fertility values.
+
+• The real values graph showed that all age groups steadily declined, and the total population went extinct by year fifty.
+
+• The percentage graph showed small early fluctuations, then stabilized after about ten years, indicating a steady age structure even as the population declined.
+
