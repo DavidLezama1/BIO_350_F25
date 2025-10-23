@@ -83,6 +83,24 @@ IC Assignment 6: Imagine All the Beetles: Age-Structured Models
 
 _____________________________________________________________________________
 
+IC Assignment 7: The Road to Succession: Transition Matrices & A Pair of Populations: Absorption
+
+The Road to Succession: Transition Matrices:
+
+• Built a transition matrix for forest succession showing how Beech, Maple, and other trees replace one another over time. 
+
+• Used matrix multiplication to project species proportions and found a stable equilibrium. 
+
+
+A Pair of Populations: Absorption:
+
+• Modeled a two-patch butterfly metapopulation with extinction and recolonization rates.
+
+• Created a 4×4 transition matrix and simulated probabilities over 50 years using matrix iteration. 
+
+• Found a 76% extinction probability by year 50 and plotted P(0/0) vs time to show risk of metapopulation loss.
+
+_____________________________________________________________________________
 IC_InclassExample1:
 
 • Made the log of the graph from assignment 2
@@ -134,7 +152,7 @@ IC_InclassExample4:
 
 _____________________________________________________________________________
 
-IC_InclassExample4:
+IC_InclassExample5:
 
 • This assignment expanded and altered the original IC_Assignment6 code by increasing the number of age groups to five and adjusting the matrix, reproduction rates, and survival probabilities to model a real species more accurately.
 
