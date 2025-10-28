@@ -162,3 +162,13 @@ IC_InclassExample5:
 
 • The percentage graph showed small early fluctuations, then stabilized after about ten years, indicating a steady age structure even as the population declined.
 
+_____________________________________________________________________________
+
+IC_InclassExample6:
+
+• Created a normal distribution graph using data from 200 adult male giraffes representing their shoulder heights (in meters).
+
+• The giraffe heights were roughly normally distributed with a mean of 5.2 m and a standard deviation of 0.3 m. 
+
+• Plotted the normal distribution showing the frequency of the data with the probability density on the y-axis.
+
