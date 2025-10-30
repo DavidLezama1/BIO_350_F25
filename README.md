@@ -101,6 +101,19 @@ A Pair of Populations: Absorption:
 • Found a 76% extinction probability by year 50 and plotted P(0/0) vs time to show risk of metapopulation loss.
 
 _____________________________________________________________________________
+
+IC Assignment 8: A Bird in the Cam I: Single-Variable Probability
+
+• This program calculates the probability of finding a nest with two eggs, the probability of getting a streak of single-egg nests, and the average number of eggs per nest.
+
+• It lets you change how many nests have 1, 2, or 3 eggs and how long the streak of single-egg nests should be.
+
+• The script runs the function twice: once using the original study numbers and again using the new dataset (17 one-egg nests, 29 two-egg nests, and 7 three-egg nests).
+
+• It prints the results for both datasets so you can compare the probabilities and average eggs per nest.
+
+_____________________________________________________________________________
+
 IC_InclassExample1:
 
 • Made the log of the graph from assignment 2
