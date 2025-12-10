@@ -1,0 +1,228 @@
+# BIO_350_F25
+Starting our BIO350 assigments repo.
+
+_____________________________________________________________________________
+
+IC Assingment 1: Chapter 1 of Ecology Handbook: Change over Time
+
+• Making a difference equation
+
+• Techanical difficulties, SHOULD be btter from now on
+
+• It works!
+
+_____________________________________________________________________________
+
+IC Assignment 2: Chapter 2 of Ecology Handbook: Duckweed on a Pond: Exponential Growth
+
+• Making an exponential equation to measure how quickly duckeweed covers a pond
+
+• Minimal techanical difficulties, bit better
+
+• Works and introduced matplotlib, and plotting on x and y axis
+
+_____________________________________________________________________________
+
+IC_Assigment 3: Chapter 3 of Ecology Handbook: Throwing Shade I: Logistic Growth
+
+• All information and values come from Chapter 3 of the Handbook of Quantitative Ecology
+
+• This program shows how a plant population grows over time using a logistic growth model. It starts with 12 plants and applies the logistic equation each year to account for growth slowing as the population nears the carrying capacity of 400
+
+• The analysis technique is a discrete-time population model
+
+• The program simulates plant population growth with self-shading and explicit deaths and without
+
+_____________________________________________________________________________
+
+IC Assignment 4: Chapter 4 of Ecology Handbook: Throwing Shade II: Lotka-Volterra Competition
+
+The code shows you how two competing plant species grow and interact in the same plot using logistic growth with self-shading and competition, showing that the colonizer eventually stabilizes at 240 (carrying capacity) while the threatened species goes extinct at year 24. 
+
+• The program sets the initial populations, carrying capacities, number of seeds produced per year, death rates,  and number of years to simulate for both species. 
+
+• The function records the population sizes over time and I made sure to prevent any negative values.
+
+• The simulation runs for  50 years, and the results are stored.
+
+• The model uses a discrete-time logistic growth simulation with Lotka–Volterra competition to analyze species interactions.
+
+_____________________________________________________________________________
+
+IC Assignment 5: Chapter 5 of Ecology Handbook: Rabies Removal: SIR Models
+
+• Uses an SIR model function that simulates rabies spread in a fox population using difference equations for Susceptible (S), Infected (I), and Removed/Dead (R).
+
+• Initializes the population states with given values: 999 susceptible, 1 infected, and 0 dead.
+
+• Iterates daily updates over the time period (40 days), applying the equations for infection (beta variable), death (death rate), and transitions between classes.
+
+• Stores results in arrays so that the daily values of S, I, and R are stored.
+
+• Plots for susceptible, infected, and dead foxes over time
+
+• Prints an answer to the chapter question, showing that rabies spreads and giving the number of foxes dead by day 40 (R[-1]).
+
+• I also answered question given by the teacher about beta variable and death rate changing. 
+
+_____________________________________________________________________________
+
+IC Assignment 6: Imagine All the Beetles: Age-Structured Models
+
+• Added an age-structured population model for beetles using matrix multiplication.
+
+• Defined a function to calculate populations of first-year, second-year, and third-year beetles, as well as the total population, over multiple years.
+
+• Simulated beetle population dynamics for 150 years with initial populations for first and second-year beetles.
+
+• Plotted population trends for each age group and the total population over time.
+
+• Added a scenario with a 5% trap rate to model the impact.
+
+• Compared population outcomes with and without traps, and reflected on the effect of trapping over time.
+
+_____________________________________________________________________________
+
+IC Assignment 7: The Road to Succession: Transition Matrices & A Pair of Populations: Absorption
+
+The Road to Succession: Transition Matrices:
+
+• Built a transition matrix for forest succession showing how Beech, Maple, and other trees replace one another over time. 
+
+• Used matrix multiplication to project species proportions and found a stable equilibrium. 
+
+
+A Pair of Populations: Absorption:
+
+• Modeled a two-patch butterfly metapopulation with extinction and recolonization rates.
+
+• Created a 4×4 transition matrix and simulated probabilities over 50 years using matrix iteration. 
+
+• Found a 76% extinction probability by year 50 and plotted P(0/0) vs time to show risk of metapopulation loss.
+
+_____________________________________________________________________________
+
+IC Assignment 8: A Bird in the Cam I: Single-Variable Probability
+
+• This program calculates the probability of finding a nest with two eggs, the probability of getting a streak of single-egg nests, and the average number of eggs per nest.
+
+• It lets you change how many nests have 1, 2, or 3 eggs and how long the streak of single-egg nests should be.
+
+• The script runs the function twice: once using the original study numbers and again using the new dataset (17 one-egg nests, 29 two-egg nests, and 7 three-egg nests).
+
+• It prints the results for both datasets so you can compare the probabilities and average eggs per nest.
+
+_____________________________________________________________________________
+
+IC_InclassExample1:
+
+• Made the log of the graph from assignment 2
+
+_____________________________________________________________________________
+
+IC_InclassExample2:
+
+• Imported population data from a CSV file using pandas
+
+• Plotted population size over time (days) using matplotlib, with days on the x-axis, population on the y-axis
+and a horizontal reference line at y=276
+ 
+• Calculated average population size between day 17 and day 60 to make the horizontal reference line at y=276
+
+• This analysis uses a density-independent approach because the analysis does not include any factors or equations that account for population regulation by density. It simply summarizes and visualizes population data without modeling how population size affects growth
+
+_____________________________________________________________________________
+
+IC_InclassExample3:
+
+• The code demonstrates two versions of a Lotka–Volterra style competition model for two species (N and M). 
+
+• Each version simulates population growth, competition, and perturbations (extra individuals added at specific time steps). 
+
+• The first model uses logistic growth with death rates, while the second uses the classical competition form with growth rates and competition coefficients. 
+
+• Both models store population sizes over time in lists and then plot trajectories (days vs population) using matplotlib. 
+
+• Example runs are provided with initial values, carrying capacities, and parameters, showing how species interact and respond to competition and sudden introductions.
+
+_____________________________________________________________________________
+
+IC_InclassExample4:
+
+• Imported and installed necessary Python libraries (numpy, scipy, matplotlib, seaborn, pandas).
+
+• Translated an R model (Carcass R file) to Python, defining SICZ and SICZ_gamma compartmental disease models as systems of ODEs.
+
+• Set initial conditions and parameters for different population sizes.
+
+• Solved the ODEs using scipy's odeint for both standard and gamma-distributed models.
+
+• Plotted time series results for Susceptible, Infected, Carcass, and Zoospore compartments for each scenario.
+
+• Each scenario simulated disease spread in large, medium, and small populations, and compared standard versus gamma-distributed infection periods with both slow and fast carcass decay rates.
+
+• Also included a reflection on my experience and the exact steps taken to complete the assignment.
+
+_____________________________________________________________________________
+
+IC_InclassExample5:
+
+• This assignment expanded and altered the original IC_Assignment6 code by increasing the number of age groups to five and adjusting the matrix, reproduction rates, and survival probabilities to model a real species more accurately.
+
+• The model simulated a five-age population of female house sparrows using realistic survival and fertility values.
+
+• The real values graph showed that all age groups steadily declined, and the total population went extinct by year fifty.
+
+• The percentage graph showed small early fluctuations, then stabilized after about ten years, indicating a steady age structure even as the population declined.
+
+_____________________________________________________________________________
+
+IC_InclassExample6:
+
+• Created a normal distribution graph using data from 200 adult male giraffes representing their shoulder heights (in meters).
+
+• The giraffe heights were roughly normally distributed with a mean of 5.2 m and a standard deviation of 0.3 m. 
+
+• Plotted the normal distribution showing the frequency of the data with the probability density on the y-axis.
+
+_____________________________________________________________________________
+
+IC_InclassExample7:
+
+• Downloaded a clustering file from SciKitLearn
+
+_____________________________________________________________________________
+
+IC_InclassExample8:
+
+• The project compares the JMA and ARGO datasets to identify overlapping regions and data gaps.
+
+• Machine-learning models are created using JMA nitrate data, with salinity and temperature as predictors, to determine the best-performing model architecture.
+
+• The modeling process is repeated using only the subset of JMA data that matches the ARGO geographic area.
+
+• The results from the full-dataset models and region-filtered models are analyzed to determine whether geographic matching improves predictive accuracy.
+
+_____________________________________________________________________________
+
+Final Project: Deep Active Learning for Wildlife Monitoring with Camera Traps:
+
+• This project implements a complete deep active learning pipeline for wildlife species identification in camera-trap images, based on the published study “A deep active learning system for species identification and counting in camera trap images.”
+
+• A ResNet-18 embedding model was trained from scratch using triplet loss because the pretrained embedding network from the original paper was no longer available.
+
+• The system uses margin-based uncertainty sampling, which selects the unlabeled images the classifier is most unsure about, allowing the model to learn efficiently from only the most informative examples.
+
+• The dataset consists of 3,212 camera-trap images across five classes (Deer, Fox, Raccoon, Squirrel, Background), with cleaning steps applied to remove corrupted files, standardize formats, and eliminate duplicates.
+
+• The active learning process begins with 1,000 labeled images, then adds 100 new labeled images per iteration, producing evaluation checkpoints at 1000, 1100, 1200, 1300, and continuing up to 2,500 labeled images.
+
+• At each checkpoint, the active learning manager extracts embeddings, retrains the classifier, evaluates the model, and outputs a numerical test accuracy value, forming the accuracy progression table.
+
+• The project required modifying the original authors' scripts, creating a custom file (run_my_camera_trap_active_learning.py), adjusting P and K parameters to handle class imbalance, and resolving environment and import issues.
+
+• The final results demonstrate that the model reaches high accuracy with far fewer labeled images than the full dataset, confirming the effectiveness of deep active learning for real-world conservation biology applications.
+
+• Checkpoints, embeddings, classifier weights, and active learning snapshots are saved throughout the process to allow the pipeline to be restored or analyzed at any stage.
+
+• The project provides a reproducible, fully functional version of the active learning pipeline that conservation teams can use to reduce manual labeling effort and accelerate wildlife monitoring.
